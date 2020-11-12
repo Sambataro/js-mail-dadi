@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
+  background-size: cover;
+  color: white;
+}
+
+header , main{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+
+}
+
+/* logo e titolo pagina */
+#logo-header{
+  width: 100px;
+
+}
+#logoheader-name{
+  font-size: 30px;
+  padding: 0 5px;
+}
+
+.btn {
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  border-radius: 5px;
+  font-size: 30px;
+}
+/*/ logo e titolo pagina */
